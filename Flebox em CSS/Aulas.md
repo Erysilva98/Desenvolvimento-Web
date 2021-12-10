@@ -1,0 +1,15 @@
+# Aula - Posicionamento com Flexbox em CSS
+- 1° Estrutura básica do flex-direction
+- 2° Estrutura básica do flex-wrap
+- 3° Estrutura básica do flex-flow
+- 4° Estrutura básica do justify-content
+- 5° Estrutura básica do aligen-items
+- 6° Estrutura básica do align-content
+- 7° Estrutura básica do flex-grow
+- 8° Estrutura básica do flex-basis
+- 9° Estrutura básica do flex-shrink
+- 10° Estrutura básica do flex
+- 11° Estrutura básica do order
+- 12° Estrutura básica do align-self
+- Projeto prático em Flexbox em Css ->
+- Desenvolvimento Web / Flex-Projeto

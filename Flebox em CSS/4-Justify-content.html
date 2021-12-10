@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Justify Content</title>
+        <!-- 
+            - justify-content: Propriedade cai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre elas.    
+            Obs: Caso os itens esteja ocupando 100% de todo o container, ela não se aplica.
+
+            - flex-start: Início do container
+            - flex-end: Final do container
+            - center: Ao centro do container
+            - space-between: Criar um espaçamento igual entre os elementos
+            - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
+        -->
+        <style>
+            .container{
+                max-width: 400px;
+                border: 1px solid black;
+                margin: 0;
+                display: flex;
+            }
+
+            .intem{
+                background-color: blueviolet;
+                margin: 5px;
+                text-align: center;
+                color: white;
+            }
+
+            .flex-start{
+                justify-content: flex-start;
+            }
+
+            .flex-end{
+                justify-content: flex-end;
+            }
+
+            .center{
+                justify-content: center;
+            }
+
+            .space-between{
+                justify-content: space-between;
+            }
+
+            .space-around{
+                justify-content: space-around;
+            }
+
+            .column {
+                flex-direction: column;
+                min-height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ROW</h1>
+        <p>Flex Start</p>
+        <section class="container flex-start">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+        </section>
+        <p>Flex End</p>
+        <section class="container flex-end">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+        </section>
+        <p>Center</p>
+        <section class="container center">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+            <div class="intem">4</div>
+            <div class="intem">5</div>
+        </section>
+        <p>Space between</p>
+        <section class="container space-between">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+            <div class="intem">4</div>
+            <div class="intem">5</div>
+        </section>
+        <p>Space around</p>
+        <section class="container space-around">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+            <div class="intem">4</div>
+            <div class="intem">5</div>
+        </section>
+
+        <h1>COLUMN</h1>
+        <p>Flex Start ( Column )</p>
+        <section class="container flex-start column">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+            <div class="intem">4</div>
+            <div class="intem">5</div>
+        </section>
+        <p>Flex End ( Column )</p>
+        <section class="container flex-end column">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+            <div class="intem">4</div>
+            <div class="intem">5</div>
+        </section>
+        <p>Center ( Column )</p>
+        <section class="container center column">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+            <div class="intem">4</div>
+            <div class="intem">5</div>
+        </section>
+        <p>Space Between ( Column )</p>
+        <section class="container space-between column">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+            <div class="intem">4</div>
+            <div class="intem">5</div>
+        </section>
+        <p>Space Arond ( Column )</p>
+        <section class="container space-around column">
+            <div class="intem">1</div>
+            <div class="intem">Intem 2</div>
+            <div class="intem">Outro Intem</div>
+            <div class="intem">4</div>
+            <div class="intem">5</div>
+        </section>
+    </body>
+</html>

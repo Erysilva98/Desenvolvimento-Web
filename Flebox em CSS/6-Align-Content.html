@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Align Content</title>
+        <!-- 
+            - align-content: Propriedade responsável por tratar o alinhamento das linhas do container em relação ao eixo vertical do container.
+            Precisamos que:
+            ° O container utilize quebra de linhas.
+            ° A altura do container seja maior que a coma das linhas dos intens.
+            
+            - center: Alinhamento dos itens ao centro
+            - stretch: Padrão e os flex itens crescem igualmente
+            - flex-start: Alinhamneto dos itens no início
+            - flex-end: Alinhamento dos intens no final
+            - space-between: Criar um espaçamento igual entre os elementos
+            - space-around: Os espaçamentos do meio são duas vezes
+            maiores que o inicial e final
+        -->
+        <style>
+            .container{
+                height: 350px;
+                max-width: 300px;
+                display: flex;
+                flex-wrap: wrap;
+                border: 1px solid black;
+            }
+
+            .item{
+                background-color: violet;
+                padding: 0 5px;
+                margin: 5px;
+                flex: 1;
+                text-align: center;
+                color: white;
+            }
+
+            .stretch{
+                align-content: stretch;
+            }
+
+            .center{
+                align-content: center;
+            }
+
+            .flex-start{
+                align-content: flex-start;
+            }
+
+            .flex-end{
+                align-content: flex-end;
+            }
+
+            .space-around{
+                align-content: space-around;
+            }
+
+            .space-between{
+                align-content: space-between;
+            }
+        </style>
+
+    </head>
+    <body>
+        <p>Stretch</p>
+        <div class="container stretch">
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+        </div>
+        <p>Center</p>
+        <div class="container center">
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+        </div>
+        <p>Flex Start</p>
+        <div class="container flex-start">
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+        </div>
+        <p>Flex End</p>
+        <div class="container flex-end">
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+        </div>
+        <p>Space Around</p>
+        <div class="container space-around">
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+        </div>
+        <p>Space Between</p>
+        <div class="container space-between">
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+            <div class="item">Lorem ipsum, dolor sit amet consectetur</div>
+        </div>
+    </body>
+</html>
