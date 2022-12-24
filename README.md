@@ -1,3 +1,12 @@
+# Home Page com conceitos de Flebox
+
+#
+## Tela Inicial
+#
+<img src="Projetos/Flex-Projeto/img/pagina.png" alt="Tela Inicial" height="300px"/>
+
+#
+
 # Desenvolvimento-Web
  - Aulas da Digital Innovation One 
  - Foco em Desenvolvimento WEB
@@ -8,6 +17,8 @@
  - Vuejs
  - Nodejs
  - Banco de Dados Mysql
+
+#
 
  ### Posicionamento com Flexbox em Css
 - Inicio em 09/12/2021
@@ -20,3 +31,4 @@
 - Parando ás 20h57m - 10/12/2021
 - 
 
+#
