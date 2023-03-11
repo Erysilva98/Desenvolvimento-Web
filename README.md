@@ -18,5 +18,12 @@
 - 10/12/2021
 - Desenvolvimento da página em andamento 
 - Parando ás 20h57m - 10/12/2021
-- 
+- -----------------------------------------------------
+- 11/12/021
+- Início ás 12h30m
+- Interface da Website
+- Resposividade Implementada
+- Conclusão das aulas do Projeto
+- 14h10m - Concluído
+- --------------------------------------------
 
